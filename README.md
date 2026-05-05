@@ -28,3 +28,11 @@ To run the code, provide a two-column `.txt` file named `ecg_3.txt`:
 ## Limitations
 
 This project was developed as an academic signal-processing prototype. The detection method is rule-based and depends on signal quality, threshold selection, and noise level. Performance is better in cleaner rest recordings, while noisier or post-exercise segments may lead to false detections and require further tuning.
+
+## Example Results
+
+### Rest Condition
+![Rest ECG and Heart Sound Alignment](rest_ecg_heart_sound_alignment.jpg)
+
+### Post-Exercise Condition
+![Post-Exercise ECG and Heart Sound Alignment](post_exercise_ecg_heart_sound_alignment.jpg)
